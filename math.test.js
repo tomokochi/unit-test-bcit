@@ -9,3 +9,7 @@ test('2 + 5 = 7', () => {
 test.skip('3 + 9 = 12', () => {
     expect(addition(3, 9)).toBe(12)
 })
+
+test('1 + 5 = 6', () => {
+    expect(addition(1, 5)).toBe(6)
+})
